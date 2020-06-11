@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/verbose-octo-bassoon/static/css/main.36497136.chunk.css",
+    "main.js": "/verbose-octo-bassoon/static/js/main.76b878db.chunk.js",
+    "main.js.map": "/verbose-octo-bassoon/static/js/main.76b878db.chunk.js.map",
+    "runtime-main.js": "/verbose-octo-bassoon/static/js/runtime-main.86976311.js",
+    "runtime-main.js.map": "/verbose-octo-bassoon/static/js/runtime-main.86976311.js.map",
+    "static/js/2.0b1e0712.chunk.js": "/verbose-octo-bassoon/static/js/2.0b1e0712.chunk.js",
+    "static/js/2.0b1e0712.chunk.js.map": "/verbose-octo-bassoon/static/js/2.0b1e0712.chunk.js.map",
+    "index.html": "/verbose-octo-bassoon/index.html",
+    "precache-manifest.dabd7082bf35b8622a52a7dc96bd8866.js": "/verbose-octo-bassoon/precache-manifest.dabd7082bf35b8622a52a7dc96bd8866.js",
+    "service-worker.js": "/verbose-octo-bassoon/service-worker.js",
+    "static/css/main.36497136.chunk.css.map": "/verbose-octo-bassoon/static/css/main.36497136.chunk.css.map",
+    "static/js/2.0b1e0712.chunk.js.LICENSE.txt": "/verbose-octo-bassoon/static/js/2.0b1e0712.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86976311.js",
+    "static/js/2.0b1e0712.chunk.js",
+    "static/css/main.36497136.chunk.css",
+    "static/js/main.76b878db.chunk.js"
+  ]
+}
