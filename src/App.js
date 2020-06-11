@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Todos from './components/Todos';
 import Header from './components/layout/Header';
+import AddTodo from './components/AddTodo';
 
 class App extends Component {
   state = {
@@ -26,8 +27,8 @@ class App extends Component {
 
   markComplete = (id) => {
     this.setState({
-      todos:this.state.todos.map(todo=>{
-        if(todo.id === id){
+      todos: this.state.todos.map(todo => {
+        if (todo.id === id) {
           todo.completed = !todo.completed;
         }
         return todo;
@@ -35,11 +36,11 @@ class App extends Component {
     })
   }
 
-  delTodo=(id,title)=>{
+  delTodo = (id, title) => {
     // eslint-disable-next-line no-restricted-globals
-    if(!confirm(`Delete todo: ${title}`) ) return;
+    if (!confirm(`Delete todo: ${title}`)) return;
     this.setState({
-      todos:[...this.state.todos.filter(todo=>todo.id!==id)]
+      todos: [...this.state.todos.filter(todo => todo.id !== id)]
     });
   }
 
@@ -48,8 +49,11 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Header/>
-        <Todos todos={this.state.todos} markComplete={this.markComplete} delTodo={this.delTodo}/>
+        <div className="container">
+          <Header />
+          <AddTodo />
+          <Todos todos={this.state.todos} markComplete={this.markComplete} delTodo={this.delTodo} />
+        </div>
       </div>
     );
   }

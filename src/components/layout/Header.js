@@ -10,11 +10,12 @@ function Header() {
 
 
 const headerStyle = {
-    background: '#333',
+    background: '#134040',
     color: '#fff',
     textAlign: 'center',
     padding: '10px',
-    fontFamily:'Arial'
+    fontFamily:'Arial',
+    marginBottom:'5px'
 }
 
 export default Header;
