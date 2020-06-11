@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/verbose-octo-bassoon/precache-manifest.dabd7082bf35b8622a52a7dc96bd8866.js"
+  "/verbose-octo-bassoon/precache-manifest.2d31d9cfc26e6d97d4d533aa55f84cd0.js"
 );
 
 self.addEventListener('message', (event) => {

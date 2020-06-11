@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d56130b35aeb80fb73b205ea1fb14187",
+    "revision": "97af9c00c57d4452031593d43382e64a",
     "url": "/verbose-octo-bassoon/index.html"
   },
   {
-    "revision": "29df841a59be9b50a3a7",
-    "url": "/verbose-octo-bassoon/static/css/main.36497136.chunk.css"
+    "revision": "92e092136690cb1c3065",
+    "url": "/verbose-octo-bassoon/static/css/main.97a8f2a5.chunk.css"
   },
   {
     "revision": "c4236174b61a25951732",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/verbose-octo-bassoon/static/js/2.0b1e0712.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "29df841a59be9b50a3a7",
-    "url": "/verbose-octo-bassoon/static/js/main.76b878db.chunk.js"
+    "revision": "92e092136690cb1c3065",
+    "url": "/verbose-octo-bassoon/static/js/main.0623f138.chunk.js"
   },
   {
     "revision": "cec68016d45126c22840",
