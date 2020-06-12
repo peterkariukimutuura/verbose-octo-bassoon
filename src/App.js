@@ -4,7 +4,6 @@ import Todos from './components/Todos';
 import Header from './components/layout/Header';
 import AddTodo from './components/AddTodo';
 import About from './components/pages/About'
-import { v4 as uuid } from 'uuid';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Axios from 'axios';
 
@@ -31,18 +30,14 @@ class App extends Component {
   delTodo = (id, title) => {
     // eslint-disable-next-line no-restricted-globals
     if (!confirm(`Delete todo: ${title}`)) return;
-    this.setState({
-      todos: [...this.state.todos.filter(todo => todo.id !== id)]
-    });
+
+    Axios.delete(`https://jsonplaceholder.typicode.com/todos/${id}`).then(res=>this.setState({todos: [...this.state.todos.filter(todo => todo.id !== id)]}));
+    
   }
 
   addTodo = (title) => {
-    const newTodo = {
-      id: uuid(),
-      title,
-      completed: false
-    }
-    this.setState({ todos: [...this.state.todos, newTodo] });
+    Axios.post('https://jsonplaceholder.typicode.com/todos',{title,completed:false}).then(res=>this.setState({ todos: [...this.state.todos, res.data] }));
+    
   }
 
   render() {
