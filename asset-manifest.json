@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/verbose-octo-bassoon/static/css/main.97a8f2a5.chunk.css",
-    "main.js": "/verbose-octo-bassoon/static/js/main.1831a36d.chunk.js",
-    "main.js.map": "/verbose-octo-bassoon/static/js/main.1831a36d.chunk.js.map",
+    "main.js": "/verbose-octo-bassoon/static/js/main.ea718f33.chunk.js",
+    "main.js.map": "/verbose-octo-bassoon/static/js/main.ea718f33.chunk.js.map",
     "runtime-main.js": "/verbose-octo-bassoon/static/js/runtime-main.86976311.js",
     "runtime-main.js.map": "/verbose-octo-bassoon/static/js/runtime-main.86976311.js.map",
-    "static/js/2.b6ad3046.chunk.js": "/verbose-octo-bassoon/static/js/2.b6ad3046.chunk.js",
-    "static/js/2.b6ad3046.chunk.js.map": "/verbose-octo-bassoon/static/js/2.b6ad3046.chunk.js.map",
+    "static/js/2.2ea8469b.chunk.js": "/verbose-octo-bassoon/static/js/2.2ea8469b.chunk.js",
+    "static/js/2.2ea8469b.chunk.js.map": "/verbose-octo-bassoon/static/js/2.2ea8469b.chunk.js.map",
     "index.html": "/verbose-octo-bassoon/index.html",
-    "precache-manifest.1a67da7d6cfa228786760c1654ccadfa.js": "/verbose-octo-bassoon/precache-manifest.1a67da7d6cfa228786760c1654ccadfa.js",
+    "precache-manifest.5c0cdffe87aa8fca65d4c37feef20b5a.js": "/verbose-octo-bassoon/precache-manifest.5c0cdffe87aa8fca65d4c37feef20b5a.js",
     "service-worker.js": "/verbose-octo-bassoon/service-worker.js",
     "static/css/main.97a8f2a5.chunk.css.map": "/verbose-octo-bassoon/static/css/main.97a8f2a5.chunk.css.map",
-    "static/js/2.b6ad3046.chunk.js.LICENSE.txt": "/verbose-octo-bassoon/static/js/2.b6ad3046.chunk.js.LICENSE.txt"
+    "static/js/2.2ea8469b.chunk.js.LICENSE.txt": "/verbose-octo-bassoon/static/js/2.2ea8469b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.86976311.js",
-    "static/js/2.b6ad3046.chunk.js",
+    "static/js/2.2ea8469b.chunk.js",
     "static/css/main.97a8f2a5.chunk.css",
-    "static/js/main.1831a36d.chunk.js"
+    "static/js/main.ea718f33.chunk.js"
   ]
 }
